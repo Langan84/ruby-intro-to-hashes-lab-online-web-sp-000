@@ -28,10 +28,10 @@ end
       #:hero => {name: "Romeo", age: "15", status: "alive"},
     #  :hero_friends => []
 def monopoly_with_third_tier
-
+empty_hash = {}
 	monopoly = {
 		:railroads => {pieces: 4},
-		:names => {:reading_railroad=>{}, :pennsylvania_railroad=>{}, :b_and_o_railroad=>{}, :shortline=>{}},
+		:names => {:reading_railroad=>empty_hash, :pennsylvania_railroad=>empty_hash, :b_and_o_railroad=>empty_hash, :shortline=>empty_hash},
 		:rent_in_dollars => {:one_piece_owned=>25, :two_pieces_owned=>50, :three_pieces_owned=>100, :four_pieces_owned=>200,}
 
 	}
