@@ -21,17 +21,7 @@ def monopoly_with_second_tier
 	}#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 end
 
-contacts = {
-"Jon Snow" => {
-name: "Jon",
-email: "jon_snow@thewall.we",
-favorite_ice_cream_flavors: ["chocolate", "vanilla"]  },
-"Freddy Mercury" => {
-name: "Freddy",
-email: "freddy@mercury.com",
-favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
-}
-}
+
 def monopoly_with_third_tier
 	monopoly = {
 		:railroads => {pieces: 4,
