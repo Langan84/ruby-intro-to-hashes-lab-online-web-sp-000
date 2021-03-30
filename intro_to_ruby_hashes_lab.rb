@@ -21,18 +21,22 @@ def monopoly_with_second_tier
 	}#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 end
 
-		#epic_tragedy = {
-   #:montague => {
-  #    :patriarch => {name: "Lord Montague", age: "53"},
-      #:matriarch => {name: "Lady Montague", age: "54"},
-      #:hero => {name: "Romeo", age: "15", status: "alive"},
-    #  :hero_friends => []
+contacts = {
+"Jon Snow" => {
+name: "Jon",
+email: "jon_snow@thewall.we",
+favorite_ice_cream_flavors: ["chocolate", "vanilla"]  },
+"Freddy Mercury" => {
+name: "Freddy",
+email: "freddy@mercury.com",
+favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
+}
+}
 def monopoly_with_third_tier
-empty_hash = {}
 	monopoly = {
-		:railroads => {pieces: 4},
-			:names => {:reading_railroad=>{}, :pennsylvania_railroad=>{}, :b_and_o_railroad=>{}, :shortline=>{}},
-			:rent_in_dollars => {:one_piece_owned=>25, :two_pieces_owned=>50, :three_pieces_owned=>100, :four_pieces_owned=>200,}
+		:railroads => {pieces: 4,
+			:names => [:reading_railroad=>{}, :pennsylvania_railroad=>{}, :b_and_o_railroad=>{}, :shortline=>{}],
+			:rent_in_dollars => [:one_piece_owned=>25, :two_pieces_owned=>50, :three_pieces_owned=>100, :four_pieces_owned=>200,]
 
 	}
 end
